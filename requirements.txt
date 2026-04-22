@@ -14,9 +14,9 @@ scikit-learn>=1.2.0
 catboost>=1.2.5
 
 # ── Model: TabPFN ────────────────────────────────────────────────────────────
-tabpfn-client==0.2.8
+tabpfn-client>=0.2.8
 
 # ── Model: FT-Transformer ────────────────────────────────────────────────────
-torch==2.0.1
-pytorch-lightning==1.9.5
-pytorch-tabular==1.1.0
+torch>=2.9.0
+pytorch-lightning>=2.0.0
+pytorch-tabular>=1.1.0

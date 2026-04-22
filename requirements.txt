@@ -9,19 +9,14 @@ joblib>=1.2.0
 
 # ── Machine Learning ─────────────────────────────────────────────────────────
 scikit-learn>=1.2.0
-imbalanced-learn>=0.11.0      # SMOTEENN digunakan di notebook
 
-# ── Model: CatBoost (Optuna) ─────────────────────────────────────────────────
-catboost>=1.2.0
-optuna>=3.0.0
+# ── Model: CatBoost ──────────────────────────────────────────────────────────
+catboost==1.2.2
 
 # ── Model: TabPFN ────────────────────────────────────────────────────────────
-# Notebook menggunakan tabpfn-CLIENT (cloud API), bukan tabpfn lokal
-# versi aktual di Kaggle: tabpfn-client==0.2.8
 tabpfn-client==0.2.8
 
 # ── Model: FT-Transformer ────────────────────────────────────────────────────
-# versi aktual dari notebook output: pytorch-tabular==1.1.0
-torch>=2.0.0
-pytorch-lightning>=1.8.0
+torch==2.0.1
+pytorch-lightning==1.9.5
 pytorch-tabular==1.1.0

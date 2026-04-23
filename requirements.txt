@@ -21,6 +21,6 @@ tabpfn-client>=0.2.8
 optuna>=3.0.0
 
 # ── Model: FT-Transformer ────────────────────────────────────────────────────
-torch>=2.9.0
+torch>=2.0.0
 pytorch-lightning>=2.0.0
 pytorch-tabular>=1.1.0
